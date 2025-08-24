@@ -89,7 +89,7 @@
                 <div class="relative h-48 bg-gray-200 dark:bg-gray-700 overflow-hidden">
                     @if($project->images->isNotEmpty())
                         <x-responsive-image 
-                            :src="$project->images->first()->image_path"
+                            :src="$project->images->first()->image_url"
                             :alt="$project->images->first()->alt_text ?? $project->title"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 will-change-transform"
                             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -236,7 +236,7 @@
                             @if($selectedProject->images->isNotEmpty())
                                 <div class="relative h-64 lg:h-96">
                                     <x-responsive-image 
-                                        :src="$selectedProject->images[$currentImageIndex]->image_path"
+                                        :src="$selectedProject->images[$currentImageIndex]->image_url"
                                         :alt="$selectedProject->images[$currentImageIndex]->alt_text ?? $selectedProject->title"
                                         class="w-full h-full object-cover"
                                         :lazy="false"
@@ -277,7 +277,7 @@
                                             <button wire:click="setCurrentImage({{ $index }})"
                                                     class="flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all {{ $index === $currentImageIndex ? 'border-blue-500' : 'border-transparent' }}">
                                                 <x-responsive-image 
-                                                    :src="$image->image_path"
+                                                    :src="$image->image_url"
                                                     :alt="$image->alt_text ?? $selectedProject->title"
                                                     class="w-full h-full object-cover"
                                                     sizes="64px"
