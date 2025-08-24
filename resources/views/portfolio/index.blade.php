@@ -211,7 +211,7 @@
                     <div class="stagger-animation">
                         <div class="grid grid-cols-2 gap-6">
                             <div class="text-center p-6 bg-gray-50 dark:bg-gray-700 rounded-xl">
-                                <div class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">5+</div>
+                                <div class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">8+</div>
                                 <div class="text-gray-600 dark:text-gray-400">Years Experience</div>
                             </div>
                             <div class="text-center p-6 bg-gray-50 dark:bg-gray-700 rounded-xl">
