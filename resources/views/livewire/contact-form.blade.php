@@ -244,7 +244,7 @@
                     </svg>
                 </div>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Email</h3>
-                <p class="text-gray-600 dark:text-gray-300">hello@example.com</p>
+                <p class="text-gray-600 dark:text-gray-300">contact@hachchadi.com</p>
             </div>
 
             <!-- Response Time -->
